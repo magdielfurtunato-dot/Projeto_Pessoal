@@ -6,7 +6,7 @@
     margin: 0;
 }
 body {
-background-color: #c7c7c7;
+background-color: #e6e6e6;
 min-height: 100vh;
 overflow: hidden;
 }
@@ -24,10 +24,14 @@ margin: 20px;
     font-family: 'principal';
 }
 
+h1:hover {
+transform: scale(1.1)
+}
+
 .tit {
     min-height: 80px;
     width: 100%;
     background-color: #ffc400;
     display: flex;
-    box-shadow: 0px 2px 0 #858585, 0px 4px 0 #999, 0px 8px 0 #a2a2a2, 0px 12px 0 #b3b2b2, 0px 12px #a2a2a2; 
+    box-shadow: 0px 1px 0 #a2a2a2, 0px 2px 0 #a8a8a8, 0px 4px 0 #bdbcbc, 0px 6px 0 #cbcbcb, 0px 8px #dddddd; 
 }
